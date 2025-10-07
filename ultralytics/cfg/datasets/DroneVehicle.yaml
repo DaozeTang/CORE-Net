@@ -1,0 +1,14 @@
+path: ./datasets/DroneVehicle
+
+#RGB
+train: images/train
+val: images/val
+test:  images/test
+
+# Classes
+names:
+  0: car
+  1: truck
+  2: bus
+  3: van
+  4: freight_car
