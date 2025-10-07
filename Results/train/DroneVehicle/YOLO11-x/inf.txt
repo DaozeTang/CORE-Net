@@ -1,0 +1,17 @@
+200 epochs completed in 10.677 hours.
+Optimizer stripped from runs/train/DroneVehicle/YOLO11-x/weights/last.pt, 114.4MB
+Optimizer stripped from runs/train/DroneVehicle/YOLO11-x/weights/best.pt, 114.4MB
+
+Validating runs/train/DroneVehicle/YOLO11-x/weights/best.pt...
+Ultralytics 8.3.70 🚀 Python-3.12.3 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 4090, 24111MiB)
+                                                      CUDA:1 (NVIDIA GeForce RTX 4090, 24111MiB)
+YOLO11x summary (fused): 464 layers, 56,832,799 parameters, 0 gradients, 194.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 92/92 [00:09<00:00, 10.12it/s]
+                   all       1469      22462      0.784      0.748      0.796      0.585
+                   car       1361      18965      0.889      0.916      0.951      0.678
+                 truck        405       1336      0.777      0.677      0.777      0.574
+                   bus        285        751      0.882      0.952      0.964      0.763
+                   van        287        700      0.694       0.62      0.673      0.486
+           freight_car        273        710      0.677      0.573      0.617      0.423
+Speed: 0.1ms preprocess, 2.6ms inference, 0.0ms loss, 1.1ms postprocess per image
+Results saved to runs/train/DroneVehicle/YOLO11-x

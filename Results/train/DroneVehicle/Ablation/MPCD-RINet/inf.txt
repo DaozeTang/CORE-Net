@@ -1,0 +1,17 @@
+200 epochs completed in 5.574 hours.
+Optimizer stripped from runs/train/DroneVehicle/Ablation/MPCD-RINet/weights/last.pt, 6.1MB
+Optimizer stripped from runs/train/DroneVehicle/Ablation/MPCD-RINet/weights/best.pt, 6.1MB
+
+Validating runs/train/DroneVehicle/Ablation/MPCD-RINet/weights/best.pt...
+Ultralytics 8.3.70 🚀 Python-3.12.3 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 4090, 24111MiB)
+                                                      CUDA:1 (NVIDIA GeForce RTX 4090, 24111MiB)
+ADown-RINet summary (fused): 286 layers, 2,859,655 parameters, 0 gradients, 9.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 92/92 [00:06<00:00, 15.30it/s]
+                   all       1469      22462      0.777       0.72       0.77      0.547
+                   car       1361      18965      0.887        0.9      0.941      0.659
+                 truck        405       1336      0.768      0.626      0.721      0.521
+                   bus        285        751      0.889      0.948      0.956      0.732
+                   van        287        700      0.665      0.586       0.63      0.433
+           freight_car        273        710      0.676      0.541      0.599       0.39
+Speed: 0.1ms preprocess, 0.7ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to runs/train/DroneVehicle/Ablation/MPCD-RINet

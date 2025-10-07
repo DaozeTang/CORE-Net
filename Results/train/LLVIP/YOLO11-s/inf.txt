@@ -1,0 +1,12 @@
+200 epochs completed in 3.877 hours.
+Optimizer stripped from runs/train/LLVIP/YOLO11-s/weights/last.pt, 19.2MB
+Optimizer stripped from runs/train/LLVIP/YOLO11-s/weights/best.pt, 19.2MB
+
+Validating runs/train/LLVIP/YOLO11-s/weights/best.pt...
+Ultralytics 8.3.70 🚀 Python-3.12.3 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 4090, 24111MiB)
+                                                      CUDA:1 (NVIDIA GeForce RTX 4090, 24111MiB)
+YOLO11s summary (fused): 238 layers, 9,413,187 parameters, 0 gradients, 21.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 217/217 [00:08<00:00, 25.37it/s]
+                   all       3463       8302      0.915       0.81      0.891      0.513
+Speed: 0.1ms preprocess, 0.5ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to runs/train/LLVIP/YOLO11-s
