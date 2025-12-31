@@ -1,4 +1,4 @@
-# CORE-Net: A cross-modal orthogonal representation enhancement network for low-altitude multispectral object detection
+# [CORE-Net: A cross-modal orthogonal representation enhancement network for low-altitude multispectral object detection](https://doi.org/10.1371/journal.pone.0340499)
 
 Official PyTorch implementation of CORE-Net.
 
